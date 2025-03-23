@@ -25,7 +25,7 @@ def cartoonize_image(img):
     return img_cartoon
 
 # 이미지 로드
-img = cv2.imread('bird.webp')
+img = cv2.imread('bird.jpg')
 img2 = cv2.imread('bird2.jpg')
 
 # 카툰 효과 적용
